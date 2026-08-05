@@ -1,0 +1,125 @@
+{
+  "name": "孙訢源",
+  "profession": "Intelligent Systems / Software Engineering",
+  "summary": "南京大学软件工程本科生，目前在腾讯参与 Agent 相关系统工程。关注智能体、具身智能与低空系统，拥有从后端基础设施、检索系统到机械臂和无人机软硬件协同的实践经历，希望持续探索人工智能在真实复杂系统中的应用。",
+  "email": "231250074@smail.nju.edu.cn",
+  "phone": "",
+  "location": { "city": "南京", "state": "江苏", "country": "中国", "postalCode": "" },
+  "website": "https://sunxi2077.github.io",
+  "socials": [
+    { "platform": "github", "username": "sunxi2077", "url": "https://github.com/sunxi2077" }
+  ],
+  "experience": [
+    {
+      "organization": "腾讯",
+      "position": "AI / Agent 实习生",
+      "employmentType": "Internship",
+      "location": "深圳",
+      "startDate": "2026-06-01",
+      "endDate": "Present",
+      "responsibility": "参与 Agent 相关系统的工程实践，关注复杂任务执行、工具使用与系统稳定性。",
+      "highlights": [
+        "参与智能体系统的功能开发与调试",
+        "在真实工程环境中理解任务编排、工具调用与可靠执行"
+      ],
+      "technologies": ["LLM Agent", "Tool Calling", "Agent Engineering"]
+    },
+    {
+      "organization": "国家级大学生创新训练计划",
+      "position": "项目主持人",
+      "employmentType": "Research Project",
+      "location": "南京大学",
+      "startDate": "2025-01-01",
+      "endDate": "2026-07-01",
+      "responsibility": "主持面向居家场景的具身智能桌面整理机器人项目，负责方案设计、进度推进与系统集成。",
+      "highlights": [
+        "构建自然语言指令、视觉感知、目标定位与机械臂抓取的完整闭环",
+        "完成 RGB-D 三维定位、手眼标定和真实环境联调"
+      ],
+      "technologies": ["LangSAM", "RealSense", "PIPER", "Embodied AI"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "南京大学",
+      "degree": "本科",
+      "fieldOfStudy": "软件工程",
+      "startDate": "2023-09-01",
+      "endDate": "2027-06-30",
+      "grade": "4.48 / 5.0",
+      "coursework": ["数据结构与算法", "操作系统", "计算机组成原理", "数据库系统", "机器学习", "深度学习"]
+    }
+  ],
+  "skills": [
+    { "name": "AI / Agent", "tags": ["Agent Loop", "Tool Calling", "Multi-Agent", "Context Engineering", "RAG"] },
+    { "name": "Intelligent Systems", "tags": ["LangSAM", "RGB-D Perception", "Hand-eye Calibration", "Robot Control", "UAV Systems"] },
+    { "name": "Backend", "tags": ["Java", "Spring Boot", "Spring Security", "FastAPI", "MyBatis-Plus"] },
+    { "name": "Retrieval & Data", "tags": ["Elasticsearch", "BM25", "KNN", "MySQL", "Redis", "Kafka", "MinIO"] },
+    { "name": "Engineering", "tags": ["Python", "Docker", "Linux", "Git", "Maven"] }
+  ],
+  "projects": [
+    {
+      "name": "无人机空地协同系统",
+      "description": "面向复杂物流场景的云-空-地协同系统，全国大学生物联网设计竞赛全国总决赛一等奖。",
+      "url": "/portfolio/drone-iot",
+      "highlights": [
+        "搭建 MID-360、RTK 与三维光流融合定位链路，GPS 拒止环境定位精度达到 ±10cm",
+        "完成 RDK X5 机载集成与 IR-LOCK 精准降落，端到端控制延迟不高于 100ms"
+      ],
+      "technologies": ["UAV", "RDK X5", "MID-360", "RTK"]
+    },
+    {
+      "name": "具身智能桌面整理机器人",
+      "description": "融合自然语言、视觉感知与机械臂控制的居家桌面整理系统，国家级大创项目。",
+      "url": "/portfolio/embodied-robot",
+      "highlights": [
+        "使用 LangSAM 与 RealSense 完成自然语言引导的目标分割和三维定位",
+        "完成手眼标定、坐标变换及 PIPER 六自由度机械臂抓取链路"
+      ],
+      "technologies": ["LangSAM", "RealSense", "PIPER", "DeepSeek"]
+    },
+    {
+      "name": "Multi-Agent Harness",
+      "description": "面向复杂软件任务的智能体运行平台。",
+      "url": "/portfolio/multi-agent-harness",
+      "highlights": ["实现工具调用、任务持久化、多 Agent 异步协作与 Worktree 隔离执行"],
+      "technologies": ["Python", "Agent Runtime", "JSONL", "Git Worktree"]
+    },
+    {
+      "name": "FreeRead",
+      "description": "面向私有知识库场景的 RAG 智能问答平台。",
+      "url": "/portfolio/freeread",
+      "highlights": ["构建异步文档管线、混合检索与多租户权限体系"],
+      "technologies": ["Spring Boot", "Elasticsearch", "Kafka", "Redis"]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "全国大学生物联网设计竞赛全国总决赛一等奖",
+      "issuer": "全国大学生物联网设计竞赛",
+      "date": "2025-09-01"
+    },
+    {
+      "name": "软件学院高额奖学金（腾讯奖学金）",
+      "issuer": "南京大学软件学院",
+      "date": "2025-01-01"
+    },
+    {
+      "name": "人民奖学金一等奖",
+      "issuer": "南京大学",
+      "date": "2025-01-01"
+    },
+    {
+      "name": "优秀共青团员",
+      "issuer": "南京大学",
+      "date": "2025-01-01"
+    }
+  ],
+  "courses": [],
+  "languages": [
+    { "language": "中文", "fluency": "母语" },
+    { "language": "English", "fluency": "Working proficiency" }
+  ],
+  "volunteering": [],
+  "publications": []
+}

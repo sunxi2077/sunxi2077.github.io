@@ -1,0 +1,38 @@
+{
+  "github": { "owner": "sunxi2077", "repo": "sunxi2077.github.io" },
+  "domain": "https://sunxi2077.github.io",
+  "bNavigation": true,
+  "homeLabel": "home",
+  "navigationItems": ["portfolio", "blog"],
+  "bPageFind": true,
+  "bThemeToggle": true,
+  "bRssFeed": true,
+  "bIntroduction": true,
+  "introduction": {
+    "badges": ["Agent Systems", "Embodied AI", "Low-altitude Intelligence"],
+    "heading": "孙訢源",
+    "subHeadingItems": [
+      {
+        "type": "mail",
+        "label": "231250074@smail.nju.edu.cn",
+        "url": "mailto:231250074@smail.nju.edu.cn"
+      },
+      {
+        "type": "address",
+        "label": "南京大学 · 软件工程",
+        "url": "https://www.nju.edu.cn/"
+      }
+    ],
+    "socialItems": [
+      { "type": "github", "url": "https://github.com/sunxi2077" }
+    ],
+    "description": "南京大学软件工程本科生，目前在腾讯参与 Agent 系统工程。我关注智能体、具身智能与低空系统，喜欢把感知、决策和软件基础设施连接起来，做成能在真实环境中运行的智能系统。",
+    "ctaItems": [{ "label": "查看经历", "url": "/resume", "variant": "default" }],
+    "support": { "label": "GitHub", "url": "https://github.com/sunxi2077", "variant": "outline" }
+  },
+  "featured": {
+    "portfolio": { "visible": true },
+    "blog": { "visible": true },
+    "important": "portfolio"
+  }
+}
