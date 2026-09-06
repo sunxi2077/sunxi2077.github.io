@@ -79,18 +79,19 @@
       "technologies": ["LangSAM", "RealSense", "PIPER", "DeepSeek"]
     },
     {
-      "name": "Multi-Agent Harness",
-      "description": "面向复杂软件任务的智能体运行平台。",
-      "url": "/portfolio/multi-agent-harness",
-      "highlights": ["实现工具调用、任务持久化、多 Agent 异步协作与 Worktree 隔离执行"],
-      "technologies": ["Python", "Agent Runtime", "JSONL", "Git Worktree"]
-    },
-    {
-      "name": "FreeRead",
-      "description": "面向私有知识库场景的 RAG 智能问答平台。",
-      "url": "/portfolio/freeread",
-      "highlights": ["构建异步文档管线、混合检索与多租户权限体系"],
-      "technologies": ["Spring Boot", "Elasticsearch", "Kafka", "Redis"]
+      "name": "2025 电赛 · 野生动物巡查系统",
+      "description": "参加 2025 年全国大学生电子设计竞赛无人机方向，选题为 H 题“野生动物巡查系统”。",
+      "url": "/portfolio/nuedc-2025",
+      "highlights": [
+        "赛题围绕禁飞区航线规划、自主巡查、动物识别统计与地面站显示展开",
+        "收录地面站界面、无人机实物与参赛现场照片"
+      ],
+      "technologies": [
+        "UAV",
+        "航线规划",
+        "机器视觉",
+        "地面站"
+      ]
     }
   ],
   "certifications": [
